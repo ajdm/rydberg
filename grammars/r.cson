@@ -30,4 +30,8 @@
     'match': '\\b(LETTERS|letters|month\\.abb|month\\.name|pi)\\b'
     'name': 'support.constant.misc.R'
   }
+  {
+    'match': '(\\+|\\-|\\*|\\/|\\^|%%|%\\/%)'
+    'name': 'keyword.operator.arithmetic.R'
+  }
 ]
