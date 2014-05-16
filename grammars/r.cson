@@ -14,4 +14,8 @@
     'end': '\\n'
     'name': 'comment.line.number-sign.R'
   }
+  {
+    'match': '\\b(function|if|else|for|in|break|next|return|repeat|switch|while)\\b'
+    'name': 'keyword.control.R'
+  }
 ]
