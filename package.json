@@ -1,0 +1,12 @@
+{
+  "name": "rydberg",
+  "version": "0.0.0",
+  "description": "Syntax highlighting, code snippets, and other tools for coding in R",
+  "repository": "https://github.com/ajdm/rydberg",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
