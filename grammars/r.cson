@@ -38,4 +38,8 @@
     'match': '(=|<-|<<-|->|->>)'
     'name': 'keyword.operator.assignment.R'
   }
+  {
+    'match': '(<|>|<=|>=|==|!=)'
+    'name': 'keyword.operator.comparison.R'
+  }
 ]
