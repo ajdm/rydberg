@@ -4,3 +4,14 @@
   'R'
   'r'
 ]
+
+'patterns': [
+  {
+    'begin': '#'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.R'
+    'end': '\\n'
+    'name': 'comment.line.number-sign.R'
+  }
+]
