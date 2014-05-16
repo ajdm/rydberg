@@ -34,4 +34,8 @@
     'match': '(\\+|\\-|\\*|\\/|\\^|%%|%\\/%)'
     'name': 'keyword.operator.arithmetic.R'
   }
+  {
+    'match': '(=|<-|<<-|->|->>)'
+    'name': 'keyword.operator.assignment.R'
+  }
 ]
