@@ -22,4 +22,8 @@
     'match': '\\b(logical|numeric|complex|list|matrix|array|data\\.frame|character|factor)(?=\\s*\\()'
     'name': 'storage.type.R'
   }
+  {
+    'match': '\\b(TRUE|FALSE|NULL|NA|Inf|NaN)\\b'
+    'name': 'constant.language.R'
+  }
 ]
