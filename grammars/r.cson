@@ -26,4 +26,8 @@
     'match': '\\b(TRUE|FALSE|NULL|NA|Inf|NaN)\\b'
     'name': 'constant.language.R'
   }
+  {
+    'match': '\\b(LETTERS|letters|month\\.abb|month\\.name|pi)\\b'
+    'name': 'support.constant.misc.R'
+  }
 ]
