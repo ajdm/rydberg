@@ -46,4 +46,21 @@
     'match': '(!|&|&&|[|]|[||]|xor|isTRUE|any|all)'
     'name': 'keyword.operator.logical.R'
   }
+  {
+    'begin': '\''
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.R'
+    'end': '\''
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.R'
+    'name': 'string.quoted.single.R'
+    'patterns': [
+      {
+        'match': '\\\\.'
+        'name': 'constant.character.escape.R'
+      }
+    ]
+  }
 ]
