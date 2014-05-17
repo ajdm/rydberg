@@ -80,4 +80,15 @@
       }
     ]
   }
+  {
+    'captures':
+      '1':
+        'name': 'entity.name.function.R'
+      '2':
+        'name': 'keyword.operator.assignment.R'
+      '3':
+        'name': 'keyword.control.R'
+    'match': '([[:alpha:].][[:alnum:]._]*)\\s*(<-)\\s*(function)'
+    'name': 'meta.function.R'
+  }
 ]
