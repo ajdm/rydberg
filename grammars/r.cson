@@ -42,4 +42,8 @@
     'match': '(<|>|<=|>=|==|!=)'
     'name': 'keyword.operator.comparison.R'
   }
+  {
+    'match': '(!|&|&&|[|]|[||]|xor|isTRUE|any|all)'
+    'name': 'keyword.operator.logical.R'
+  }
 ]
