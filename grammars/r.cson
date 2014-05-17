@@ -5,6 +5,9 @@
   'r'
 ]
 
+'foldingStartMarker': '\\{\\s*$'
+'foldingStopMarker': '^\\s*\\}'
+
 'patterns': [
   {
     'begin': '#'
