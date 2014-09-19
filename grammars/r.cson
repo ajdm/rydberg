@@ -10,44 +10,44 @@
 
 'patterns': [
   {
+    'name': 'comment.line.number-sign.R'
     'begin': '#'
     'beginCaptures':
       '0':
         'name': 'punctuation.definition.comment.R'
     'end': '\\n'
-    'name': 'comment.line.number-sign.R'
   }
   {
-    'match': '\\b(function|if|else|for|in|break|next|return|repeat|switch|while)\\b'
     'name': 'keyword.control.R'
+    'match': '\\b(function|if|else|for|in|break|next|return|repeat|switch|while)\\b'
   }
   {
-    'match': '\\b(logical|numeric|complex|list|matrix|array|data\\.frame|character|factor)(?=\\s*\\()'
     'name': 'storage.type.R'
+    'match': '\\b(logical|numeric|complex|list|matrix|array|data\\.frame|character|factor)(?=\\s*\\()'
   }
   {
-    'match': '\\b(TRUE|FALSE|NULL|NA|Inf|NaN)\\b'
     'name': 'constant.language.R'
+    'match': '\\b(TRUE|FALSE|NULL|NA|Inf|NaN)\\b'
   }
   {
-    'match': '\\b(LETTERS|letters|month\\.abb|month\\.name|pi)\\b'
     'name': 'support.constant.misc.R'
+    'match': '\\b(LETTERS|letters|month\\.abb|month\\.name|pi)\\b'
   }
   {
-    'match': '(\\+|\\-|\\*|\\/|\\^|%%|%\\/%)'
     'name': 'keyword.operator.arithmetic.R'
+    'match': '(\\+|\\-|\\*|\\/|\\^|%%|%\\/%)'
   }
   {
-    'match': '(=|<-|<<-|->|->>)'
     'name': 'keyword.operator.assignment.R'
+    'match': '(=|<-|<<-|->|->>)'
   }
   {
-    'match': '(<|>|<=|>=|==|!=)'
     'name': 'keyword.operator.comparison.R'
+    'match': '(<|>|<=|>=|==|!=)'
   }
   {
-    'match': '(!|&|&&|[|]|[||]|xor|isTRUE|any|all)'
     'name': 'keyword.operator.logical.R'
+    'match': '(!|&|&&|[|]|[||]|xor|isTRUE|any|all)'
   }
   {
     'begin': '\''
@@ -61,12 +61,13 @@
     'name': 'string.quoted.single.R'
     'patterns': [
       {
-        'match': '\\\\.'
         'name': 'constant.character.escape.R'
+        'match': '\\\\.'
       }
     ]
   }
   {
+    'name': 'string.quoted.double.R'
     'begin': '"'
     'beginCaptures':
       '0':
@@ -75,7 +76,6 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.R'
-    'name': 'string.quoted.double.R'
     'patterns': [
       {
         'match': '\\\\.'
@@ -84,6 +84,7 @@
     ]
   }
   {
+    'name': 'meta.function.R'
     'captures':
       '1':
         'name': 'entity.name.function.R'
@@ -92,7 +93,6 @@
       '3':
         'name': 'keyword.control.R'
     'match': '([[:alpha:].][[:alnum:]._]*)\\s*(<-)\\s*(function)'
-    'name': 'meta.function.R'
   }
 
   # roxygen
