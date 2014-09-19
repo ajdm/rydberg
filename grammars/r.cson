@@ -94,6 +94,10 @@
         'name': 'keyword.control.R'
     'match': '([[:alpha:].][[:alnum:]._]*)\\s*(<-)\\s*(function)'
   }
+  {
+    'name': 'keyword.control.R'
+    'match': '(UseMethod|NextMethod|setMethod|setGeneric|setGroupGeneric|setClass)'
+  }
 
   # roxygen
   {
