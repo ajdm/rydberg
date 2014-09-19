@@ -46,6 +46,10 @@
     'match': '(<|>|<=|>=|==|!=)'
   }
   {
+    'name': 'keyword.operator.concatenation.R'
+    'match': '\\b(rbind|cbind|c|paste0|paste)\\b'
+  }
+  {
     'name': 'keyword.operator.logical.R'
     'match': '(!|&|&&|[|]|[||]|xor|isTRUE|any|all)'
   }
